@@ -8,7 +8,7 @@ import java.util.Scanner;
  * <p>创建时间：2020/6/18 10:33</p>
  * @author zzhen
  */
-public class ArraryQueueDemo {
+public class ArrayQueueDemo {
 
     public static void main(String[] args) {
         ArrayQueue queue = new ArrayQueue(3);
