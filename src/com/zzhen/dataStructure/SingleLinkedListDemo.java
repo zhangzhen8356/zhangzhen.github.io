@@ -51,6 +51,14 @@ class SingleLinkedList {
      */
     private HeroNode headNode = new HeroNode(0,"", "");
 
+    public void setHeadNode(HeroNode headNode) {
+        this.headNode = headNode;
+    }
+
+    public HeroNode getHeadNode() {
+        return headNode;
+    }
+
     /**
      * 直接往最后添加
      */
