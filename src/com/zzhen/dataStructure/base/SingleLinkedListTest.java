@@ -1,10 +1,13 @@
-package com.zzhen.dataStructure;
+package com.zzhen.dataStructure.base;
+
+import com.zzhen.dataStructure.base.HeroNode;
+import com.zzhen.dataStructure.base.SingleLinkedList;
 
 import java.util.Stack;
 
 /**
  * <p>功能描述：单链表练习</p>
- * <p>类名称：com.zzhen.dataStructure.SingleLinkedListTest</p>
+ * <p>类名称：com.zzhen.dataStructure.base.SingleLinkedListTest</p>
  * <p>创建时间：2020/6/20 12:38</p>
  * @author zzhen
  */

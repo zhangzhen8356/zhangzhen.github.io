@@ -1,4 +1,4 @@
-package com.zzhen.dataStructure;
+package com.zzhen.dataStructure.base;
 
 import java.util.Scanner;
 

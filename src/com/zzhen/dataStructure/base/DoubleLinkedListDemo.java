@@ -1,9 +1,9 @@
-package com.zzhen.dataStructure;
+package com.zzhen.dataStructure.base;
 
 
 /**
  * <p>功能描述：双向链表</p>
- * <p>类名称：com.zzhen.dataStructure.DoubleLinkedListDemo</p>
+ * <p>类名称：com.zzhen.dataStructure.base.DoubleLinkedListDemo</p>
  * <p>创建时间：2020/6/22 9:23</p>
  * @author zzhen
  */

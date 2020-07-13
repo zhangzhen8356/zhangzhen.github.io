@@ -1,9 +1,9 @@
-package com.zzhen.dataStructure;
+package com.zzhen.dataStructure.base;
 
 
 /**
  * <p>功能描述：稀疏数组使用</p>
- * <p>类名称：com.zzhen.dataStructure.SparseArray</p>
+ * <p>类名称：com.zzhen.dataStructure.base.SparseArray</p>
  * <p>创建时间：2020/6/17 17:20</p>
  * @author zzhen
  */

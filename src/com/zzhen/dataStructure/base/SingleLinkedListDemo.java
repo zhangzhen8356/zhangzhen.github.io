@@ -1,9 +1,9 @@
-package com.zzhen.dataStructure;
+package com.zzhen.dataStructure.base;
 
 
 /**
  * <p>功能描述：单向链表</p>
- * <p>类名称：com.zzhen.dataStructure.SingleLinkedListDemo</p>
+ * <p>类名称：com.zzhen.dataStructure.base.SingleLinkedListDemo</p>
  * <p>创建时间：2020/6/19 19:31</p>
  * @author zzhen
  */

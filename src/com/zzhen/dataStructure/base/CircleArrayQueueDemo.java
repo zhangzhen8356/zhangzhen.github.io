@@ -1,10 +1,10 @@
-package com.zzhen.dataStructure;
+package com.zzhen.dataStructure.base;
 
 import java.util.Scanner;
 
 /**
  * <p>功能描述：环形数组队列</p>
- * <p>类名称：com.zzhen.dataStructure.CircleArrayQueueDemo</p>
+ * <p>类名称：com.zzhen.dataStructure.base.CircleArrayQueueDemo</p>
  * <p>创建时间：2020/6/18 16:43</p>
  * @author zzhen
  */
