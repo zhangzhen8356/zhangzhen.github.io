@@ -20,7 +20,7 @@ public class BubbleSort {
         bubbleSort(arr);
         long endTime = System.currentTimeMillis();
         int second = (int)(endTime - startTime) / 1000;
-        System.out.printf("本次排序消耗的时间：%ds", second);
+        System.out.printf("本次排序消耗的时间：%ds", second); //耗时9s
     }
 
     /**
