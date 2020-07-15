@@ -13,13 +13,21 @@ public class InsertSort {
         //101,34,119,1
         int[] arr = new int[]{101,34,119,1};
         insertSort(arr);
+        int[] arr1 = new int[80000];
+        for (int i = 0; i < 80000; i++) {
+            arr1[i] = (int)(Math.random() * 800000);
+        }
+        long startTime = System.currentTimeMillis();
+        insertSort(arr1);
+        long endTime = System.currentTimeMillis();
+        int second = (int)(endTime - startTime) / 1000;
+        System.out.printf("本次排序消耗的时间：%ds", second); //耗时0s
     }
 
     public static void insertSort(int[] arr){
         int insertVal;
         int insertIndex;
         for (int i = 1; i < arr.length; i++) {
-
             insertVal = arr[i];
             insertIndex = i - 1;
             while (insertIndex >= 0 && insertVal < arr[insertIndex]) {
@@ -28,7 +36,7 @@ public class InsertSort {
             }
             //退出循环,找到位置了
             arr[insertIndex + 1] = insertVal;
-            System.out.println("第"+ i +"次排序后的结果arr:" + Arrays.toString(arr));
+            //System.out.println("第"+ i +"次排序后的结果arr:" + Arrays.toString(arr));
         }
     }
     /**
