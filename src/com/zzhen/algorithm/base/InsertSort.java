@@ -15,7 +15,7 @@ public class InsertSort {
         insertSort(arr);
         int[] arr1 = new int[80000];
         for (int i = 0; i < 80000; i++) {
-            arr1[i] = (int)(Math.random() * 800000);
+            arr1[i] = (int)(Math.random() * 80000000);
         }
         long startTime = System.currentTimeMillis();
         insertSort(arr1);

@@ -14,7 +14,7 @@ public class BubbleSort {
         bubbleSort(oldArray);
         int[] arr = new int[80000];
         for (int i = 0; i < 80000; i++) {
-            arr[i] = (int)(Math.random() * 8000000);  //生成一个[0,8000000)数
+            arr[i] = (int)(Math.random() * 80000000);  //生成一个[0,8000000)数
         }
         long startTime = System.currentTimeMillis();
         bubbleSort(arr);
